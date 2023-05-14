@@ -1,5 +1,5 @@
 I extracted frames from the [videos](videos) with [FFmpeg](https://github.com/FFmpeg/FFmpeg) using the following command 
-```cmd
+```sh
 ffmpeg -i video.mp4 -vf yadif images/%05d.png
 ```
 
